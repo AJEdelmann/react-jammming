@@ -1,8 +1,9 @@
 let accessToken = "";
 
-const clientId = "clientID";
+const clientId = "5803c99e8bff47b082f9e95d272d1b9a";
 
-const redirectUri = "http://localhost:3000/";
+// const redirectUri = "http://jammm.surge.sh";
+const redirectUri = "https://AJEdelmann.github.io/react-jammming";
 
 const Spotify = {
   getAccessToken() {
@@ -11,9 +12,7 @@ const Spotify = {
     }
 
     //check for access token match
-
     const accessTokenMatch = window.location.href.match(/access_token=([^&]*)/);
-
     const expiresInMatch = window.location.href.match(/expires_in=([^&]*)/);
 
     if (accessTokenMatch && expiresInMatch) {
