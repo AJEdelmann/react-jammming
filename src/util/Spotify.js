@@ -2,7 +2,8 @@ let accessToken = "";
 
 const clientId = "5803c99e8bff47b082f9e95d272d1b9a";
 
-const redirectUri = "https://AJEdelmann.github.io/react-jammming";
+const redirectUri = "https://AJEdelmann.github.io/react-jammming/";
+// const redirectUri = "http://jammm.surge.sh/";
 
 const Spotify = {
   getAccessToken() {
@@ -67,11 +68,11 @@ const Spotify = {
     const headers = { Authorization: `Bearer ${accessToken}` };
     let userId;
 
-    return fetch("https://api.spotify.com/me", { headers: headers })
+    return fetch("https://api.spotify.com/v1/me", { headers: headers })
       .then(response => response.json())
       .then(jsonResponse => {
         userId = jsonResponse.id;
-        return fetch(`https://api.spotify.com/users/${userId}/playlists`, {
+        return fetch(`https://api.spotify.com/v1/users/${userId}/playlists`, {
           headers: headers,
           method: "POST",
           body: JSON.stringify({ name: name })
@@ -80,7 +81,7 @@ const Spotify = {
           .then(jsonResponse => {
             const playlistId = jsonResponse.id;
             return fetch(
-              `https://api.spotify.com/users/${userId}/playlists/${playlistId}/tracks`,
+              `https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks`,
               {
                 headers: headers,
                 method: "POST",
