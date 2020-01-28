@@ -3,7 +3,6 @@ let accessToken = "";
 const clientId = "5803c99e8bff47b082f9e95d272d1b9a";
 
 const redirectUri = "https://AJEdelmann.github.io/react-jammming/";
-// const redirectUri = "http://jammm.surge.sh/";
 
 const Spotify = {
   getAccessToken() {
