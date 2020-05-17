@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-jammming/static/css/main.408432db.chunk.css",
-    "main.js": "/react-jammming/static/js/main.d15cf663.chunk.js",
-    "main.js.map": "/react-jammming/static/js/main.d15cf663.chunk.js.map",
+    "main.js": "/react-jammming/static/js/main.e58b03fb.chunk.js",
+    "main.js.map": "/react-jammming/static/js/main.e58b03fb.chunk.js.map",
     "runtime-main.js": "/react-jammming/static/js/runtime-main.0352d4a8.js",
     "runtime-main.js.map": "/react-jammming/static/js/runtime-main.0352d4a8.js.map",
     "static/js/2.5fa17389.chunk.js": "/react-jammming/static/js/2.5fa17389.chunk.js",
     "static/js/2.5fa17389.chunk.js.map": "/react-jammming/static/js/2.5fa17389.chunk.js.map",
     "index.html": "/react-jammming/index.html",
-    "precache-manifest.97de8f95d7f1f07fac6a4208cc834126.js": "/react-jammming/precache-manifest.97de8f95d7f1f07fac6a4208cc834126.js",
+    "precache-manifest.1f591c869c3fb7f86973c9193d31665c.js": "/react-jammming/precache-manifest.1f591c869c3fb7f86973c9193d31665c.js",
     "service-worker.js": "/react-jammming/service-worker.js",
     "static/css/main.408432db.chunk.css.map": "/react-jammming/static/css/main.408432db.chunk.css.map",
     "static/js/2.5fa17389.chunk.js.LICENSE": "/react-jammming/static/js/2.5fa17389.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0352d4a8.js",
     "static/js/2.5fa17389.chunk.js",
     "static/css/main.408432db.chunk.css",
-    "static/js/main.d15cf663.chunk.js"
+    "static/js/main.e58b03fb.chunk.js"
   ]
 }
