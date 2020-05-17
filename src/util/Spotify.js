@@ -1,6 +1,5 @@
+import { clientId } from './config';
 let accessToken = "";
-
-const clientId = "5803c99e8bff47b082f9e95d272d1b9a";
 
 const redirectUri = "https://AJEdelmann.github.io/react-jammming/";
 
